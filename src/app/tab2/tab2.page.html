@@ -14,16 +14,13 @@
   </ion-header>
 
   <app-explore-container name="Grocery List"></app-explore-container>
-
 </ion-content>
-<br>
-<br>
-<ion-content>
-<!-- List of Sliding food -->
+
+<!-- List of Sliding Items -->
 <ion-list>
   <ion-item-sliding>
     <ion-item>
-      <ion-label>Soda</ion-item>
+      <ion-label>Item</ion-label>
     </ion-item>
     <ion-item-options side="end">
       <ion-item-option (click)="unread(item)">Unread</ion-item-option>
@@ -32,12 +29,10 @@
 
   <ion-item-sliding>
     <ion-item>
-      <ion-label>Bread</ion-label>
+      <ion-label>Item</ion-label>
     </ion-item>
     <ion-item-options side="end">
       <ion-item-option (click)="unread(item)">Unread</ion-item-option>
     </ion-item-options>
   </ion-item-sliding>
-
 </ion-list>
-</ion-content>
